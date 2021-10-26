@@ -1,2 +1,11 @@
 # voyages
-Vous êtes passionnés de voyages. Vous décidez, avec votre groupe, de développer un site qui présente votre équipe et l’ensemble des pays/villes que vous avez ou rêvez de visiter. Chacune des pages doit être à l’image du pays. L’ensemble des pages doit être accessible depuis une barre de navigation avec deux listes déroulantes qui les trient par continent et par personne.
+BRANCHE PROD
+Branche commune pour la gestion des documents avant le merge final.
+Avant toute tentative : 
+-Lire attentivement les fichier Guide
+- Se reférer au document Schema_merge_equipe.pdf lors du Push
+- S'assurer du nom exact des dossier soit - image , css, html -
+- s'assurer que tout les éléments connexs sont bien nommés [ nom de la page ]_[ nature du document ]_[ position ].[ extention ] ex : index_background_header.jpeg
+S'assurer de push ou de pull sur la bonne branch (respecter la casse)
+
+NE PAS MODIFIER les fichiers existant _ Pour tout les modification apporté au fichier voyages.html et voyages.css se référer directement à Johan
