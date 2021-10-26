@@ -1,8 +1,11 @@
 # voyages
-BRANCHE PRODUCTION
-Cett Branche est utiliser afin d'associer nos différentes branches de travail.
+BRANCHE PROD
+Branche commune pour la gestion des documents avant le merge final.
+Avant toute tentative : 
+-Lire attentivement les fichier Guide
+- Se reférer au document Schema_merge_equipe.pdf lors du Push
+- S'assurer du nom exact des dossier soit - image , css, html -
+- s'assurer que tout les éléments connexs sont bien nommés [ nom de la page ]_[ nature du document ]_[ position ].[ extention ] ex : index_background_header.jpeg
+S'assurer de push ou de pull sur la bonne branch (respecter la casse)
 
-ATTENTION
-La vidéo de lancement est compressé afin de pouvoir être transmise à partir du Dépot.
-
-Il est important d'extraire le fichier : index_header_4k.mp4 et de le placer dans le dossier image. En local.
+NE PAS MODIFIER les fichiers existant _ Pour tout les modification apporté au fichier voyages.html et voyages.css se référer directement à Johan
