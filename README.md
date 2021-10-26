@@ -1,2 +1,8 @@
 # voyages
-Vous êtes passionnés de voyages. Vous décidez, avec votre groupe, de développer un site qui présente votre équipe et l’ensemble des pays/villes que vous avez ou rêvez de visiter. Chacune des pages doit être à l’image du pays. L’ensemble des pages doit être accessible depuis une barre de navigation avec deux listes déroulantes qui les trient par continent et par personne.
+BRANCHE PRODUCTION
+Cett Branche est utiliser afin d'associer nos différentes branches de travail.
+
+ATTENTION
+La vidéo de lancement est compressé afin de pouvoir être transmise à partir du Dépot.
+
+Il est important d'extraire le fichier : index_header_4k.mp4 et de le placer dans le dossier image. En local.
