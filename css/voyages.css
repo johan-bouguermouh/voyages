@@ -11,12 +11,14 @@
     }
 }
     /* HEADER */
-header{
+#index_body header{
     width: 100%;
     height: 56.25vw;
     /* margin-left: 1.875rem; */
     /* height:25vh; */
     margin-bottom: 1.875rem;
+    display: flex;
+    flex-direction: column;
 }
 
 #logo_header{
@@ -28,6 +30,39 @@ header{
 h1{
     display: none;
     color: #ffffff;
+}
+    /* ANIMATION LOGO */
+#index_header_img_logo{
+    display: none;
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+    transform: scale(1), rotate(0deg);
+    opacity: 0;
+    z-index: 1;
+    animation: anim_logo_header 0.5s ease-out 2s 1 forwards;
+}
+@keyframes anim_logo_header {
+    0% {
+        transform: scale(2) rotate(10deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.05;
+    }
+    90% {
+        transform: scale(0.95);
+        opacity: 0.85;
+    }
+    95% {
+        transform: scale(1);
+        opacity: 1.1;
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+    }
+    
 }
     /* NAVE BARRE */
 #nav_barre{
@@ -50,16 +85,19 @@ header nav{
     color: white;
 }
 #apear_nav{
-    width: 130px;
-    height: 40px;
-    line-height: 40px;
+    width: 8.125rem;
+    height: 2.5rem;
     background-color: #ffffff69;
     color: black;
     text-align: center;
+    vertical-align: center;
     font-size: 0.9rem;
     border-radius: 8px;
     transition: 1s;
     backdrop-filter: blur(3px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #menu_déroulant{
     position: absolute;
@@ -118,7 +156,9 @@ header video{
     width: 100%;
     top: 0;
     left:0;
+    z-index: -1;
 }
+
     /* MAIN */
 
 #index_main  {
@@ -359,5 +399,11 @@ header video{
     }
     #footter_nav_li_contact{
         display: inline;
+    }
+    #index_header_img_logo{
+        display: block;
+    }
+    #footer_a_contact_querry_phone{
+        display: none;
     }
 }
