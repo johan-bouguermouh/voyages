@@ -1,0 +1,84 @@
+<head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="image/navicon.png"/>
+    <link rel="stylesheet" href="css/voyages.css">
+</head>
+
+<header>
+        <video src="image/index_video_header.mp4" autoplay loop muted alt="une vidéo de paysages du monde se lance en fond d'écran"></video>
+        <div id="nav_barre">
+            <img id=logo_header src="image/index_logo_header.svg" alt="Logo de l'équipe Our Globe">
+            <h1> Our Globe</h1>
+                <nav><div id="apear_nav">Autour du monde</div>
+                    <div id="menu_déroulant">
+                        <ul id="continent_1">
+                            <h4 class="apear_continent">Asie</H4>
+                            <ul>
+                                <a href="html/voyage1.html"><li>Thailand</li></a>
+                                <a href="html/voyage2.html"><li>Thaiwan</li></a>
+                            </ul>
+                        </ul>
+                        <ul id="continent_2">
+                            <h4 class="apear_continent">Afrique</H4>
+                                <ul>
+                                    <a href="html/voyage.html"><li>Algérie</li></a> 
+                                </ul>
+                        </ul>
+                        <ul id="continent_3">
+                            <h4 class="apear_continent">Terra Inconita</H4>
+                                <ul>
+                                    <a><li>Sur la route...</li></a>
+                                    <a><li>Sur la route...</li></a>
+                                    <a><li>Sur la route...</li></a>  
+                                </ul>
+                            
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <img id="index_header_img_logo"src="image/index_logo_header.svg" alt="Logo de l'équipe Our Globe">
+    </header>
+
+<footer id="index_footer">
+        <h2>Partez sur nos traces :</h2>
+        <article>
+            <section class="footer_nav">
+                <ul>
+                    <li>Yann</li>
+                    <a href="voyage1.html"><span class="footer_a_querry">Les bons plan de </span> <span class="footer_a_querry_phone">Thaïlande</span></a>
+                </ul>
+            </section>
+            <div></div>
+            <section class="footer_nav">
+                <ul>
+                    <li>Max</li>
+                    <a href="voyage1.html"><span class="footer_a_querry">Découvrir</span> <span class="footer_a_querry_phone">Thaïwan</span></a>
+                </ul>
+            </section>
+            <div></div>
+            <section class="footer_nav">
+                <ul>
+                    <li>Johan</li>
+                    <a href="voyage1.html"><span class="footer_a_querry">Survie dans le désert d'</span><span class="footer_a_querry_phone">Algérie</span></a>
+                </ul>
+            </section>
+            <div></div>
+            <section class="footer_nav">
+                <ul>
+                    <i id="footer_nav_i_contact"class="fas fa-envelope-square"></i>
+                    <li id="footter_nav_li_contact">Contactez-nous</li>
+                    <a href="voyage1.html"><span class="footer_a_querry">Envoyer une demande</span><span id="footer_a_contact_querry_phone">Contact</span></a>
+                </ul>
+            </section>
+        </article>
+        <section id="nav_Contact">
+            <a><i class="fab fa-twitter"></i></a>
+            <a><i class="fab fa-facebook"></i></a>
+            <a><i class="fab fa-github"></i></a>
+            <a><i class="fa-brands fa-youtube"></i></a>
+        </section>
+        <img src="image/index_background_footer.png" alt="Les trois bloguer sont dans la pénombre, ils regarde la mer au loin">
+    </footer>
