@@ -283,7 +283,7 @@ div .desc h6 {
 /*Background scroll*/
 .parallax-scroll-v2 {
     background-image: url(../image/taiwan\ scroll.jpg);
-    min-height: 750px;
+    min-height: 550px;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -355,9 +355,10 @@ background-size: cover;
     margin-right: 3vh;
     font-size: 2vh;
 }
+/*Parallax scrool 2 v2*/
 .parallax-scroll2-v2 {
     background-image: url(../image/raw.jpg);
-    min-height: 450px;
+    min-height: 400px;
     background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -473,7 +474,154 @@ background-size: cover;
   .h-6{
     grid-row: span 6;
   }
-  
+  @media (max-width:376px) {
+        /*Responsive photo+titre*/
+        .titrev2 {
+            text-align: end;
+        }
+        .v2-titre {
+            font-size: 2rem;
+            color: white;
+        }
+        .v2-soustitre {
+            font-size: 1rem;
+            color: white;
+        }
+        /*Responsive "infos pratiques*/
+        .titre-table-v2 {
+            font-size: 6vh;
+            text-decoration: underline;
+        }
+        #table-v2 {
+            line-height: 4vh;
+        }
+        #table-v2 th {
+            font-size: 4vh;
+        }
+        #table-v2 td {
+            font-size: 12px;
+        }
+        /*Responsive galery 1 hôtel*/
+        .titre-galery-v2 {
+            font-size: 4vh;
+            margin-bottom: 5vh;
+        }
+        .responsive-v2-gal {
+            padding: 0 0;
+            width: 25%;
+        }
+        div .v2-gallery img {
+            width: 100%;
+            height: 15vh;
+        }
+        div .desc {
+            padding: 0;
+        }
+        div .desc h6 {
+            font-size: 2vh;
+        }
+        div .desc p {
+            font-size: 12px;
+        }
+        /*responsive wrapper*/
+        .wrapper {
+            row-gap: 4vh;
+        }
+        .wrapper IMG:hover {
+            transform: scale(3);
+        }
+        
+        /*responsive parallax scroll 1 v2*/
+        .parallax-scroll-v2 {
+            min-height: 400px;
+            background-size: cover;
+            background-attachment: fixed;
+            
+        }
+       /*responsive gallery 3 restau taiwan */
+       .titre-galery2-v2 {
+           margin-top: 4vh;
+       }
+       /*restau 1*/
+       .restau1-v2 {
+           display: flex;
+           flex-direction: column;
+           margin-bottom: 7vh;
+       }
+       .restau1-v2 h5 {
+           margin-top: 2vh;
+       }
+       .restau1-v2 IMG {
+           height: 50vh;
+           width: 100%;
+       }
+       .restau1-v2 ol p {
+           margin-right: 6vh;
+       }
+       .restau1-v2 iframe {
+           width: 100%;
+       }
+       /*restau 2*/
+       .responsive-restau2-v2 {
+           display: flex;
+           flex-direction:column;
+        background-color: rgba(171, 250, 106, 0.322);
+       }
+       .restau2-v2 {
+           display: flex;
+           flex-direction: column;
+       }
+       .restau2-v2 h5 {
+           margin-top: 2vh;
+       }
+       .img-restau2-v2 {
+           height: 50vh;
+           width: 100%;
+           padding-top: 6vh;
+           padding-bottom: 6vh;
+       }
+       .restau2-v2 iframe {
+           width: 100%;
+       }
+       .restau2-v2 ol {
+           margin-right: 5vh;
+           padding-bottom: 0;
+       }
+       /*restau 3*/
+       .restau3-v2 {
+           margin-top: 9vh;
+           display: flex;
+           flex-direction: column;
+       }
+       .img-restau3-v2 {
+           height: 50vh;
+           width: 100%;
+       }
+       .restau3-v2 h5 {
+           margin-top: 2vh;
+       }
+       .restau3-v2 ol {
+           margin-right: 5vh;
+       }
+       .restau3-v2 iframe {
+           width: 100%;
+       }
+       /*responsive gallery lieux v2 taiwan*/
+       .titre-lieux-v2 {
+           font-size: 4vh;
+           margin-top: 5vh;
+       }
+       .container-lieux-v2 {
+           display: grid;
+           grid-template-columns: repeat(3, 1fr);
+           grid-auto-rows: 50px 120px;
+           grid-gap: 5px;
+           grid-auto-flow:dense;
+       }
+  }
+
+
+
   @media screen and (max-width:500px){
     .container{
       grid-template-columns: repeat(1,1fr);
@@ -501,6 +649,6 @@ background-size: cover;
       top: 50%;
     }
   }
-#indes_footer img{
+#index_footer img{
     display: none;
 }
