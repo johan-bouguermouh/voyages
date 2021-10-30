@@ -94,7 +94,7 @@ h2{
 }
     /* TO LAPTOP */
 
-@media  (min-width:900px) {
+@media  (min-width:600px) {
     article{
         width: 90%;
         max-width: 900px;
