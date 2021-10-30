@@ -16,21 +16,21 @@
 <body>
     <header>
         <div id="nav_barre">
-            <img id=logo_header src="image/index_logo_header.svg" alt="Logo de l'équipe Our Globe">
+            <a href="voyages.html"><img id=logo_header src="image/index_logo_header.svg" alt="Logo de l'équipe Our Globe"></a>   
             <h1> Our Globe</h1>
                 <nav><div id="apear_nav">Autour du monde</div>
                     <div id="menu_déroulant">
                         <ul id="continent_1">
                             <h4 class="apear_continent">Asie</H4>
                             <ul>
-                                <a href="html/voyage1.html"><li>Thailand</li></a>
-                                <a href="html/voyage2.html"><li>Thaiwan</li></a>
+                                <a href="voyage1.html"><li>Thailand</li></a>
+                                <a href="voyage2.html"><li>Thaiwan</li></a>
                             </ul>
                         </ul>
                         <ul id="continent_2">
                             <h4 class="apear_continent">Afrique</H4>
                                 <ul>
-                                    <a href="html/voyage.html"><li>Algérie</li></a> 
+                                    <a href="voyage.html"><li>Algérie</li></a> 
                                 </ul>
                         </ul>
                         <ul id="continent_3">
@@ -326,44 +326,69 @@
 
 </div>
     </main>
-        <footer id="index_footer">
-            <h2>Partez sur nos traces :</h2>
-            <article>
-                <section class="footer_nav">
-                    <ul>
-                        <li>Yann</li>
-                        <a href="voyage1.html"><span class="footer_a_querry">Les bons plan de </span> <span class="footer_a_querry_phone">Thaïlande</span></a>
-                    </ul>
-                </section>
-                <div></div>
-                <section class="footer_nav">
-                    <ul>
-                        <li>Max</li>
-                        <a href="voyage1.html"><span class="footer_a_querry">Découvrir</span> <span class="footer_a_querry_phone">Thaïwan</span></a>
-                    </ul>
-                </section>
-                <div></div>
-                <section class="footer_nav">
-                    <ul>
-                        <li>Johan</li>
-                        <a href="voyage1.html"><span class="footer_a_querry">Survie dans le désert d'</span><span class="footer_a_querry_phone">Algérie</span></a>
-                    </ul>
-                </section>
-                <div></div>
-                <section class="footer_nav">
-                    <ul>
-                        <i id="footer_nav_i_contact"class="fas fa-envelope-square"></i>
-                        <li id="footter_nav_li_contact">Contactez-nous</li>
-                        <a href="voyage1.html"><span class="footer_a_querry">Envoyer une demande</span><span id="footer_a_contact_querry_phone">Contact</span></a>
-                    </ul>
-                </section>
-            </article>
-            <section id="nav_Contact">
-                <a><i class="fab fa-twitter"></i></a>
-                <a><i class="fab fa-facebook"></i></a>
-                <a><i class="fab fa-github"></i></a>
-                <a><i class="fa-brands fa-youtube"></i></a>
+    <footer id="index_footer">
+        <h2>Partez sur nos traces :</h2>
+        <article>
+            <section class="footer_nav">
+                <ul>
+                    <li>Yann</li>
+                    <a href="voyage1.html"><span class="footer_a_querry">Les bons plan de </span> <span class="footer_a_querry_phone">Thaïlande</span></a>
+                </ul>
             </section>
-        </footer>
+            <div></div>
+            <section class="footer_nav">
+                <ul>
+                    <li>Max</li>
+                    <a href="voyage2.html"><span class="footer_a_querry">Découvrir</span> <span class="footer_a_querry_phone">Thaïwan</span></a>
+                </ul>
+            </section>
+            <div></div>
+            <section class="footer_nav">
+                <ul>
+                    <li>Johan</li>
+                    <a href="voyage3.html"><span class="footer_a_querry">Survie dans le désert d'</span><span class="footer_a_querry_phone">Algérie</span></a>
+                </ul>
+            </section>
+            <div></div>
+            <section class="footer_nav">
+                <ul>
+                    <i id="footer_nav_i_contact"class="fas fa-envelope-square"></i>
+                    <li id="footter_nav_li_contact">Contactez-nous</li>
+                    <a href="#index_target_form_footer"><span class="footer_a_querry">Envoyer une demande</span><span id="footer_a_contact_querry_phone">Contact</span></a>
+                </ul>
+            </section>
+        </article>
+        <section id="nav_Contact">
+            <a><i class="fab fa-twitter"></i></a>
+            <a><i class="fab fa-facebook"></i></a>
+            <a><i class="fab fa-github"></i></a>
+            <a><i class="fa-brands fa-youtube"></i></a>
+        </section>
+        <img src="image/index_background_footer.png" alt="Les trois bloguer sont dans la pénombre, ils regarde la mer au loin">
+        <!-- AJOUT DU FORMULAIRE -->
+        <div id="index_target_form_footer">
+            <form id="form_1" methode="get">
+                <div id="name_date">
+                        <div class="pos_form" id="form_name">
+                            <label id="label_name"for="name">Sujet du mail</label>
+                            <input type="text" autocapitalize=sentences required>
+                        </div>
+                </div>
+
+                <div class="pos_form" id="form_descriptif">
+                    <label id="label_descriptif" for="name">Dites-nous tout !</label>
+                    <textarea id="area_descriptif" placeholder="Préciser votre activité avenir..." cols="30" rows="5" required></textarea>
+                </div>
+                <footer id="footer_formulaire">
+                    <div id="notif">
+                        <input type="checkbox" id="toggle">
+                        <label id="checkbox" for="toggle"></label>
+                        <label>S'abboner aux Newslaters</label>
+                    </div>
+                    <a href="#"><span id="add_buton">Envoyer</span></a>
+                </footer>
+            </form>
+      </div>
+    </footer>
 </body>
 </html>
