@@ -100,10 +100,7 @@ h2{
         max-width: 900px;
         display: flex;
         flex-direction: column;
-    }
-    #index_footer{
-        justify-content: center;
-
+        align-items: center;
     }
     #v3_art1_main section{
         align-self: center;
@@ -158,5 +155,9 @@ h2{
     #v3_art4_main{
         color: black;
         margin-bottom: 5rem;
+    }
+    #index_footer article{
+        display: flex;
+        justify-content: center;
     }
 }

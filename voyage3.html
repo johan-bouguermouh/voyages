@@ -16,7 +16,7 @@
 <body id="index_body">
     <header>
         <div id="nav_barre">
-            <img id=logo_header src="image/index_logo_header.svg" alt="Logo de l'équipe Our Globe">
+            <a href="voyages.html"><img id=logo_header src="image/index_logo_header.svg" alt="Logo de l'équipe Our Globe"></a>
             <h1> Survivre dans le désert</h1>
                 <nav><div id="apear_nav">Autour du monde</div>
                     <div id="menu_déroulant">
@@ -142,7 +142,7 @@
                 <ul>
                     <i id="footer_nav_i_contact"class="fas fa-envelope-square"></i>
                     <li id="footter_nav_li_contact">Contactez-nous</li>
-                    <a href="voyage1.html"><span class="footer_a_querry">Envoyer une demande</span><span id="footer_a_contact_querry_phone">Contact</span></a>
+                    <a href="#index_target_form_footer"><span class="footer_a_querry">Envoyer une demande</span><span id="footer_a_contact_querry_phone">Contact</span></a>
                 </ul>
             </section>
         </article>
@@ -153,6 +153,30 @@
             <a><i class="fa-brands fa-youtube"></i></a>
         </section>
         <img src="image/v3_background_footer.png" alt="Les trois bloguer sont dans la pénombre, ils regarde la mer au loin">
+        <div id="index_target_form_footer">
+            <form id="form_1" methode="get">
+                <div id="name_date">
+                        <div class="pos_form" id="form_name">
+                            <label id="label_name"for="name">Sujet du mail</label>
+                            <input type="text" autocapitalize=sentences required>
+                        </div>
+                </div>
+
+                <div class="pos_form" id="form_descriptif">
+                    <label id="label_descriptif" for="name">Dites-nous tout !</label>
+                    <textarea id="area_descriptif" placeholder="Préciser votre activité avenir..." cols="30" rows="5" required></textarea>
+                </div>
+                <footer id="footer_formulaire">
+                    <div id="notif">
+                        <input type="checkbox" id="toggle">
+                        <label id="checkbox" for="toggle"></label>
+                        <label>S'abboner aux Newslaters</label>
+                    </div>
+                    <a href="#"><span id="add_buton">Envoyer</span></a>
+                </footer>
+            </form>
+      </div>
     </footer>
+
 </body>
 </html>
