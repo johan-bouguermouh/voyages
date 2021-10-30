@@ -19,6 +19,11 @@ main{
     flex-direction: column;
     align-items: center;
 }
+#v3_intro_main{
+    align-self: center;
+    width: 70%;
+    margin: 0;
+}
 #index_header_img_logo{
     margin-top: 10%;
 }
@@ -26,6 +31,7 @@ img{
     width: 100%;
 }
 p{
+    width: 90%;
     text-align: justify;
     padding-right: .9375rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -97,7 +103,7 @@ h2{
 @media  (min-width:600px) {
     article{
         width: 90%;
-        max-width: 900px;
+        max-width: 68.75rem;
         display: flex;
         flex-direction: column;
         align-items: center;
