@@ -1,0 +1,1389 @@
+@font-face {
+    font-family: "adelia";
+    src: url(../image/adelia_3/adelia.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+ body {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ /* HEADER */
+ header{
+    width: 100%;
+    height: 56.25vw;
+    /* margin-left: 1.875rem; */
+    /* height:25vh; */
+    margin-bottom: 1.875rem;
+    background-image: url(../image/Taipei-Elephant-Moutain.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#logo_header{
+    width: 6rem;
+    margin-left: 0.5rem;
+}
+
+h1{
+    display: none;
+    color: #ffffff;
+}
+    /* NAVE BARRE */
+#nav_barre{
+    width: 100%;
+    height: 10vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.015),rgba(0, 0, 0, 0.15));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    backdrop-filter: blur(1px);
+}
+
+header nav{
+    margin-right: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: relative;
+    color: white;
+}
+#apear_nav{
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    background-image: linear-gradient(to top right, #af4101, #ff8010,#ffbc02);
+    text-align: center;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    transition: 1s;
+}
+#menu_déroulant{
+    position: absolute;
+    top: 40px;
+}
+header nav ul{
+    list-style: none;
+    margin: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding: 0;
+    text-align: center;
+
+}
+.apear_continent{
+    display: none;
+    margin:0;
+    width: 130px;
+    height: 30px;
+    background-color: rgb(75, 75, 75);
+}
+.apear_continent:hover{
+ color: #ffbc02;
+}
+
+header nav ul li{
+    display: none;
+    background-color: rgb(109, 109, 109);
+    width: 130px;
+    height: 25px;
+    vertical-align: center;
+}  
+header nav ul li:hover{
+    background-color: rgb(75, 75, 75);
+   }  
+   
+nav:hover .apear_continent{
+    display: block;
+}
+
+#continent_1:hover li{
+    display: block;
+}
+#continent_2:hover li{
+    display: block;
+}
+#continent_3:hover li{
+    display: block;
+}
+/*Début main*/
+.titre-v2 {
+    margin-right: 11%;
+    text-align: end;
+    color: rgba(61, 41, 14, 0.89);
+}
+.v2-titre {
+    font-family: "Spartan Thin";
+    font-size: 7rem;
+}
+.v2-soustitre {
+    font-family: "adelia";
+    font-size: 2rem;
+    margin-top: -5%;
+}
+.titre-main-v2 {
+    text-align: center;
+}
+.sous-titre-main-v2 {
+    font-family: "Spartan Thin";
+    font-size: 8vh;
+    margin-bottom: 4vh;
+}
+.v2-paragraphe1-main {
+    font-family: "jonahAFYL Light";
+    font-size: 3vh;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.effet-texte-v2 {
+    color: rgb(253, 44, 54);
+    font-weight: bolder;
+}
+/*Tableau 1 Taïwan*/
+.titre-table-v2 {
+    text-align: center;
+    font-family: "Amatic SC";
+    font-size: 8vh;
+    margin-bottom: 3vh;
+}
+#table-v2 {
+    margin: auto;
+    text-align: left;
+    line-height: 7vh;
+    border-style: hidden;
+    
+}
+#table-v2 tr:nth-child(even) {
+    background-color: rgba(171, 250, 106, 0.322);
+}
+#table-v2 th {
+    font-family: "Amatic SC";
+    font-size: 5vh;
+    padding: 3vh;
+}
+#table-v2 td {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3vh;
+    font-size: 2vh;
+}
+.effet2-texte-v2 {
+    color: rgb(0, 27, 117);
+    font-weight: bolder;
+}
+/*Galerie image Taïwan 1*/ 
+.titre-galery-v2 {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    font-family:"jonahAFYL Light";
+    font-size: 6vh;
+    text-align: center;
+}
+div.v2-gallery {
+    border: 1px solid #ccc;
+}
+  
+div.v2-gallery:hover {
+    border: 4px solid rgb(107, 63, 22);
+}
+  
+div.v2-gallery img {
+    width: 100%;
+    height: 40vh;
+}
+  
+div.desc {
+    font-size: 2vh;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div .desc h6 {
+    font-size: 15px;
+    font-style: italic;
+}
+.desc p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.responsive-v2-gal {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Fin de galerie image Taiwan 1*/
+/*Wrapper*/
+.wrapper {
+    position: relative;
+    flex-grow: 1;
+    margin: auto;
+    max-width: 1200px;
+    max-height: 1200px;
+    
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    row-gap: 9vh ;
+  }
+
+.wrapper IMG {
+    z-index: 1;
+    grid-column: span 2;
+    max-width: 100%;
+    margin-bottom: -52%;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    transform: scale(1);
+    transition: all .25s;
+
+  }
+.wrapper IMG:nth-child(7n+1) {
+    grid-column: 2 / span 2;
+}
+.wrapper IMG:hover {
+    z-index: 2;
+    transform: scale(2.5);
+}
+/*Début galerie image taiwan 2*/
+.conteneur-v2-hoshi  {
+    margin-top: 15vh;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 25vh;
+    background-image: linear-gradient( to top right,
+    rgb(0, 0, 0),
+    rgb(31, 31, 31),
+    rgb(66, 66, 66),
+    rgb(129, 129, 129),
+    #FFF
+    );
+}
+.conteneur-v2-hoshi h5 {
+    color: white;
+    font-size: 6vh;
+    font-family: "Spartan Thin";
+}
+
+.conteneur-v2-hoshi h6 {
+    color: rgb(107, 63, 22);
+    font-size: 6vh;
+    font-family: "Amatic Sc";
+    margin-top: -2%;
+    text-decoration: underline;
+}
+/*Fin wrapper*/
+/*Background scroll*/
+.parallax-scroll-v2 {
+    background-image: url(../image/taiwan\ scroll.jpg);
+    min-height: 550px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+/*Début galery 3 Taïwan*/
+.titre-galery2-v2 {
+    margin-top: 15vh;
+    text-align: center;
+    font-size: 8vh;
+    font-family: "Amatic SC";
+    
+}
+/*restau 1*/
+.img-restau1-v2 {
+        float: left;
+}
+.restau1-v2 {
+    display: flex;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+.restau1-v2 ol h5 {
+    font-family: "Georgia, 'Times New Roman', Times, serif";
+    font-size: 4vh;
+    margin-bottom: 0;
+}
+.restau1-v2 ol p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 2vh;  
+    margin-right: 3vh;
+}
+/*restau 2*/
+.img-restau2-v2 {
+    float: right;
+    
+}
+.restau2-v2 {
+    display: flex;
+    text-align: center;
+    background-color: rgba(171, 250, 106, 0.322);
+    margin-bottom: 10vh;
+}
+.restau2-v2 ol h5 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 4vh;
+    margin-bottom: 0;
+}
+.restau2-v2 ol p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 3vh;
+    font-size: 2vh;
+}
+/* restau 3*/
+.img-restau3-v2 {
+    float: left;
+}
+.restau3-v2 {
+    display: flex;
+    text-align: center;
+    margin-bottom: 20vh;
+}
+.restau3-v2 ol h5 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 4vh;
+    margin-bottom: 0;
+}
+.restau3-v2 ol p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 3vh;
+    font-size: 2vh;
+}
+/*Parallax scrool 2 v2*/
+.parallax-scroll2-v2 {
+    background-image: url(../image/raw.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+/*Début lieux incontournable v2*/
+.titre-lieux-v2 {
+    margin-top: 15vh;
+    text-align: center;
+    font-size: 8vh;
+    font-family: "Amatic SC";
+}
+  .container-lieux-v2{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows: 100px 300px;
+    grid-gap: 10px;
+    grid-auto-flow:dense;
+  }
+  
+  .gallery-item-v2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .gallery-item-v2 .image-lieux-v2{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .gallery-item-v2 .image-lieux-v2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    cursor: pointer;
+    transition:.5s ease-in-out;
+  }
+  
+  .gallery-item-v2:hover .image-lieux-v2 img{
+    transform: scale(1.5);
+  }
+  
+  .gallery-item-v2 .text{
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    
+    pointer-events: none;
+    z-index: 4;
+    transition: .3s ease-in-out;
+    -webkit-backdrop-filter: blur(4px) saturate(1.8);
+    backdrop-filter: blur(4px) saturate(1.8);
+  }
+  
+  .gallery-item-v2:hover .text{
+    opacity: 1;
+    animation: move-down .3s linear;
+    padding: 1em;
+    width: 100%;
+  }
+  
+  .w-1{
+    grid-column: span 1;
+  }
+  
+  .w-2{
+    grid-column: span 2;
+  }
+  
+  .w-3{
+    grid-column: span 3;
+  }
+  
+  .w-4{
+    grid-column: span 4;
+  }
+  
+  .w-5{
+    grid-column: span 5;
+  }
+  
+  .w-6{
+    grid-column: span 6;
+  }
+  
+  .h-1{
+    grid-row: span 1;
+  }
+  
+  .h-2{
+    grid-row: span 2;
+  }
+  
+  .h-3{
+    grid-row: span 3;
+  }
+  
+  .h-4{
+    grid-row: span 4;
+  }
+  
+  .h-5{
+    grid-row: span 5;
+  }
+  
+  .h-6{
+    grid-row: span 6;
+  }
+  @media (max-width:375px) {
+      body {
+          width: 100%;
+      }
+        /*Responsive photo+titre*/
+        .titrev2 {
+            text-align: end;
+        }
+        .v2-titre {
+            font-size: 2rem;
+            color: white;
+        }
+        .v2-soustitre {
+            font-size: 1rem;
+            color: white;
+        }
+        /*Responsive "infos pratiques*/
+        .titre-table-v2 {
+            font-size: 6vh;
+            text-decoration: underline;
+        }
+        #table-v2 {
+            line-height: 4vh;
+        }
+        #table-v2 th {
+            font-size: 4vh;
+        }
+        #table-v2 td {
+            font-size: 12px;
+        }
+        /*Responsive galery 1 hôtel*/
+        .titre-galery-v2 {
+            font-size: 4vh;
+            margin-bottom: 5vh;
+        }
+        .responsive-v2-gal {
+            padding: 0 0;
+            width: 25%;
+        }
+        div .v2-gallery img {
+            width: 100%;
+            height: 15vh;
+        }
+        div .desc {
+            padding: 0;
+        }
+        div .desc h6 {
+            font-size: 2vh;
+        }
+        div .desc p {
+            font-size: 12px;
+        }
+        /*responsive wrapper*/
+        .wrapper {
+            row-gap: 4vh;
+        }
+        .wrapper IMG:hover {
+            transform: scale(3);
+        }
+        
+        /*responsive parallax scroll 1 v2*/
+        .parallax-scroll-v2 {
+            min-height: 400px;
+            background-size: cover;
+            background-attachment: fixed;
+            
+        }
+       /*responsive gallery 3 restau taiwan */
+       .titre-galery2-v2 {
+           margin-top: 4vh;
+       }
+       /*restau 1*/
+       .restau1-v2 {
+           display: flex;
+           flex-direction: column;
+           margin-bottom: 7vh;
+       }
+       .restau1-v2 h5 {
+           margin-top: 2vh;
+       }
+       .restau1-v2 IMG {
+           height: 50vh;
+           width: 100%;
+       }
+       .restau1-v2 ol p {
+           margin-right: 6vh;
+       }
+       .restau1-v2 iframe {
+           width: 100%;
+       }
+       /*restau 2*/
+       .responsive-restau2-v2 {
+           display: flex;
+           flex-direction:column;
+        background-color: rgba(171, 250, 106, 0.322);
+       }
+       .restau2-v2 {
+           display: flex;
+           flex-direction: column;
+       }
+       .restau2-v2 h5 {
+           margin-top: 2vh;
+       }
+       .img-restau2-v2 {
+           height: 50vh;
+           width: 100%;
+           padding-top: 6vh;
+           padding-bottom: 6vh;
+       }
+       .restau2-v2 iframe {
+           width: 100%;
+       }
+       .restau2-v2 ol {
+           margin-right: 5vh;
+           padding-bottom: 0;
+       }
+       /*restau 3*/
+       .restau3-v2 {
+           margin-top: 9vh;
+           display: flex;
+           flex-direction: column;
+       }
+       .img-restau3-v2 {
+           height: 50vh;
+           width: 100%;
+       }
+       .restau3-v2 h5 {
+           margin-top: 2vh;
+       }
+       .restau3-v2 ol {
+           margin-right: 5vh;
+       }
+       .restau3-v2 iframe {
+           width: 100%;
+       }
+       /*responsive gallery lieux v2 taiwan*/
+       .titre-lieux-v2 {
+           font-size: 4vh;
+           margin-top: 5vh;
+       }
+       .container-lieux-v2{
+        grid-template-columns: repeat(1,1fr);
+        }
+        .w-1,.w-2,.w-3,.w-4,.w-5,.w-6{
+        grid-column:span 1;
+        }
+    
+        .h-1,.h-2,.h-3,.h-4,.h-5,.h-6{
+        grid-row: span 3;
+        }
+  }
+  @media (max-width:800px){
+      /*Responsive photo+titre*/
+      .titrev2 {
+        text-align: end;
+    }
+    .v2-titre {
+        font-size: 2rem;
+        color: white;
+    }
+    .v2-soustitre {
+        font-size: 1rem;
+        color: white;
+    }
+    /*Responsive "infos pratiques*/
+    .titre-table-v2 {
+        font-size: 6vh;
+        text-decoration: underline;
+    }
+    #table-v2 {
+        line-height: 4vh;
+    }
+    #table-v2 th {
+        font-size: 4vh;
+    }
+    #table-v2 td {
+        font-size: 12px;
+    }
+    /*Responsive galery 1 hôtel*/
+    .titre-galery-v2 {
+        font-size: 4vh;
+        margin-bottom: 5vh;
+    }
+    .responsive-v2-gal {
+        padding: 0 0;
+        width: 25%;
+    }
+    div .v2-gallery img {
+        width: 100%;
+        height: 15vh;
+    }
+    div .desc {
+        padding: 0;
+    }
+    div .desc h6 {
+        font-size: 2vh;
+    }
+    div .desc p {
+        font-size: 12px;
+    }
+    /*responsive wrapper*/
+    .wrapper {
+        row-gap: 4vh;
+    }
+    .wrapper IMG:hover {
+        transform: scale(3);
+    }
+    
+    /*responsive parallax scroll 1 v2*/
+    .parallax-scroll-v2 {
+        min-height: 400px;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+   /*responsive gallery 3 restau taiwan */
+   .titre-galery2-v2 {
+       margin-top: 4vh;
+   }
+   /*restau 1*/
+   .restau1-v2 {
+       display: flex;
+       flex-direction: column;
+       margin-bottom: 7vh;
+   }
+   .restau1-v2 h5 {
+       margin-top: 2vh;
+   }
+   .restau1-v2 IMG {
+       height: 50vh;
+       width: 100%;
+   }
+   .restau1-v2 ol p {
+       margin-right: 6vh;
+   }
+   .restau1-v2 iframe {
+       width: 100%;
+   }
+   /*restau 2*/
+   .responsive-restau2-v2 {
+       display: flex;
+       flex-direction:column;
+    background-color: rgba(171, 250, 106, 0.322);
+   }
+   .restau2-v2 {
+       display: flex;
+       flex-direction: column;
+   }
+   .restau2-v2 h5 {
+       margin-top: 2vh;
+   }
+   .img-restau2-v2 {
+       height: 50vh;
+       width: 100%;
+       padding-top: 6vh;
+       padding-bottom: 6vh;
+   }
+   .restau2-v2 iframe {
+       width: 100%;
+   }
+   .restau2-v2 ol {
+       margin-right: 5vh;
+       padding-bottom: 0;
+   }
+   /*restau 3*/
+   .restau3-v2 {
+       margin-top: 9vh;
+       display: flex;
+       flex-direction: column;
+   }
+   .img-restau3-v2 {
+       height: 50vh;
+       width: 100%;
+   }
+   .restau3-v2 h5 {
+       margin-top: 2vh;
+   }
+   .restau3-v2 ol {
+       margin-right: 5vh;
+   }
+   .restau3-v2 iframe {
+       width: 100%;
+   }
+   /*responsive gallery lieux v2 taiwan*/
+   .titre-lieux-v2 {
+       font-size: 4vh;
+       margin-top: 5vh;
+   }
+   .container-lieux-v2{
+    grid-template-columns: repeat(1,1fr);
+    }
+    .w-1,.w-2,.w-3,.w-4,.w-5,.w-6{
+    grid-column:span 1;
+    }
+
+    .h-1,.h-2,.h-3,.h-4,.h-5,.h-6{
+    grid-row: span 3;
+    }
+  }
+  @media (min-width:801px){
+      .titre-v2 {
+          text-align: end;
+          color: white;
+      }
+      .v2-titre {
+          font-size: 12vh;
+      }
+      .v2-soustitre {
+          font-size: 4vh;
+          color: rgb(255, 255, 255);
+      }
+      /*responsive infos pratiques 800px*/
+      .titre-table-v2 {
+          font-size:9vh;
+      }
+      #table-v2 {
+          line-height: 3vh;
+      }
+      /*Responsive galerie 1 hôtel taiwan 800px*/
+      .titre-galery-v2 {
+          font-size: 5vh;
+      }
+      div .v2-gallery img {
+          height: 35vh;
+          width: 100%;
+      }
+      div .v2-gallery h6 {
+          margin-top: 3vh;
+          margin-bottom: 3vh;
+      }
+      /*responsive wrapper taiwan 800px*/
+      .wrapper {
+        row-gap: 7vh;
+    }
+    .wrapper IMG:hover {
+        transform: scale(3);
+    }
+    /*responsive parallax scroll 1 v2 800px*/
+    .parallax-scroll-v2 {
+        min-height: 400px;
+    }
+    /*resposive galery2 v2 800px*/
+    .titre-galery2-v2 {
+        margin-top: 10vh;
+    }
+    
+    /*responsive restau 1 800px*/
+    .restau1-v2 {
+        width: min-content;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .img-restau1-v2 {
+        height: 70vh;
+        padding-top: 6vh;
+    }
+    .restau1-v2 iframe {
+        width: 100%;
+    }
+    /*responsive restau 2 800px*/
+    .responsive-restau2-v2 {
+        display: flex;
+        flex-direction: column;
+        width: min-content;
+        margin: auto;
+    }
+    .img-restau2-v2 {
+        height: 70vh;
+        margin-top: 10vh;
+        padding-top: 5vh;
+        padding-bottom: 6vh;
+    }
+    .restau2-v2 iframe {
+        width: 100%;
+    }
+    
+    /*responsive restau 3 800px*/
+    .restau3-v2 {
+        display: flex;
+        flex-direction: column;
+        width: min-content;
+        margin: auto;
+    }
+    .img-restau3-v2 {
+        height: 70vh;
+        margin-top: 10vh;
+    }
+    .restau3-v2 iframe {
+        margin-bottom: 15vh;
+    }
+  }
+
+@media (min-width:1024px) {
+   
+    * {
+        box-sizing: border-box;
+    }
+     body {
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+     }
+     /* HEADER */
+     header{
+        width: 100%;
+        height: 56.25vw;
+        
+        margin-bottom: 1.875rem;
+        background-image: url(../image/Taipei-Elephant-Moutain.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #logo_header{
+        width: 6rem;
+        margin-left: 0.5rem;
+    }
+    
+    h1{
+        display: none;
+        color: #ffffff;
+    }
+        /* NAVE BARRE */
+    #nav_barre{
+        width: 100%;
+        height: 10vh;
+        background:linear-gradient(rgba(0, 0, 0, 0.015),rgba(0, 0, 0, 0.15));
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        backdrop-filter: blur(1px);
+    }
+    
+    header nav{
+        margin-right: 1.875rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        position: relative;
+        color: white;
+    }
+    #apear_nav{
+        width: 130px;
+        height: 40px;
+        line-height: 40px;
+        background-image: linear-gradient(to top right, #af4101, #ff8010,#ffbc02);
+        text-align: center;
+        font-size: 0.9rem;
+        border-radius: 8px;
+        transition: 1s;
+    }
+    #menu_déroulant{
+        position: absolute;
+        top: 40px;
+    }
+    header nav ul{
+        list-style: none;
+        margin: 0;
+        margin-block-end: 0;
+        margin-block-start: 0;
+        padding: 0;
+        text-align: center;
+    
+    }
+    .apear_continent{
+        display: none;
+        margin:0;
+        width: 130px;
+        height: 30px;
+        background-color: rgb(75, 75, 75);
+    }
+    .apear_continent:hover{
+     color: #ffbc02;
+    }
+    
+    header nav ul li{
+        display: none;
+        background-color: rgb(109, 109, 109);
+        width: 130px;
+        height: 25px;
+        vertical-align: center;
+    }  
+    header nav ul li:hover{
+        background-color: rgb(75, 75, 75);
+       }  
+       
+    nav:hover .apear_continent{
+        display: block;
+    }
+    
+    #continent_1:hover li{
+        display: block;
+    }
+    #continent_2:hover li{
+        display: block;
+    }
+    #continent_3:hover li{
+        display: block;
+    }
+    /*Début main*/
+    .titre-v2 {
+        margin-right: 11%;
+        text-align: end;
+        color: rgba(61, 41, 14, 0.89);
+    }
+    .v2-titre {
+        font-family: "Spartan Thin";
+        font-size: 7rem;
+    }
+    .v2-soustitre {
+        font-family: "adelia";
+        font-size: 2rem;
+        margin-top: -5%;
+        color: rgba(61, 41, 14, 0.89) ;
+    }
+    .titre-main-v2 {
+        text-align: center;
+    }
+    .sous-titre-main-v2 {
+        font-family: "Spartan Thin";
+        font-size: 8vh;
+        margin-bottom: 4vh;
+    }
+    .v2-paragraphe1-main {
+        font-family: "jonahAFYL Light";
+        font-size: 3vh;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .effet-texte-v2 {
+        color: rgb(253, 44, 54);
+        font-weight: bolder;
+    }
+    /*Tableau 1 Taïwan*/
+    .titre-table-v2 {
+        text-align: center;
+        font-family: "Amatic SC";
+        font-size: 8vh;
+        margin-bottom: 3vh;
+    }
+    #table-v2 {
+        margin: auto;
+        text-align: left;
+        line-height: 7vh;
+        border-style: hidden;
+        
+    }
+    #table-v2 tr:nth-child(even) {
+        background-color: rgba(171, 250, 106, 0.322);
+    }
+    #table-v2 th {
+        font-family: "Amatic SC";
+        font-size: 5vh;
+        padding: 3vh;
+    }
+    #table-v2 td {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 3vh;
+        font-size: 2vh;
+    }
+    .effet2-texte-v2 {
+        color: rgb(0, 27, 117);
+        font-weight: bolder;
+    }
+    /*Galerie image Taïwan 1*/ 
+    .titre-galery-v2 {
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+        font-family:"jonahAFYL Light";
+        font-size: 6vh;
+        text-align: center;
+    }
+    div.v2-gallery {
+        border: 1px solid #ccc;
+    }
+      
+    div.v2-gallery:hover {
+        border: 4px solid rgb(107, 63, 22);
+    }
+      
+    div.v2-gallery img {
+        width: 100%;
+        height: 40vh;
+    }
+      
+    div.desc {
+        font-size: 2vh;
+        padding: 15px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    div .desc h6 {
+        font-size: 15px;
+        font-style: italic;
+    }
+    .desc p {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .responsive-v2-gal {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+    }
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /*Fin de galerie image Taiwan 1*/
+    /*Wrapper*/
+    .wrapper {
+        position: relative;
+        flex-grow: 1;
+        margin: auto;
+        max-width: 1200px;
+        max-height: 1200px;
+        
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        justify-items: center;
+        align-items: center;
+        row-gap: 9vh ;
+      }
+    
+    .wrapper IMG {
+        z-index: 1;
+        grid-column: span 2;
+        max-width: 100%;
+        margin-bottom: -52%;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        transform: scale(1);
+        transition: all .25s;
+    
+      }
+    .wrapper IMG:nth-child(7n+1) {
+        grid-column: 2 / span 2;
+    }
+    .wrapper IMG:hover {
+        z-index: 2;
+        transform: scale(2.5);
+    }
+    /*Début galerie image taiwan 2*/
+    .conteneur-v2-hoshi  {
+        margin-top: 15vh;
+        text-align: center;
+        padding-top: 5vh;
+        padding-bottom: 25vh;
+        background-image: linear-gradient( to top right,
+        rgb(0, 0, 0),
+        rgb(31, 31, 31),
+        rgb(66, 66, 66),
+        rgb(129, 129, 129),
+        #FFF
+        );
+    }
+    .conteneur-v2-hoshi h5 {
+        color: white;
+        font-size: 6vh;
+        font-family: "Spartan Thin";
+    }
+    
+    .conteneur-v2-hoshi h6 {
+        color: rgb(107, 63, 22);
+        font-size: 6vh;
+        font-family: "Amatic Sc";
+        margin-top: -2%;
+        text-decoration: underline;
+    }
+    /*Fin wrapper*/
+    /*Background scroll*/
+    .parallax-scroll-v2 {
+        background-image: url(../image/taiwan\ scroll.jpg);
+        min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    /*Début galery 3 Taïwan*/
+    .titre-galery2-v2 {
+        margin-top: 15vh;
+        text-align: center;
+        font-size: 8vh;
+        font-family: "Amatic SC";
+    }
+    /*restau 1*/
+    .img-restau1-v2 {
+            float: left;
+            margin-left: 0;
+            width: 580px;
+            height: 400px;
+    }
+    div .restau1-v2 iframe {
+        height: auto;
+    }
+    .restau1-v2 {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-bottom: 10vh;
+        width: 100%;
+    }
+    .restau1-v2 ol h5 {
+        font-family: "Georgia, 'Times New Roman', Times, serif";
+        font-size: 4vh;
+        margin-bottom: 0;
+    }
+    .restau1-v2 ol p {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;  
+        font-size: 2vh;  
+        
+    }
+    /*restau 2*/
+    .img-restau2-v2 {
+        float: right;
+        margin-right: 0;
+        margin-top: -5vh;
+        height: fit-content;
+    }
+    .responsive-restau2-v2 {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+    .restau2-v2 {
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(171, 250, 106, 0.322);
+        text-align: center;
+        height: 434px;
+        
+    }
+    .restau2-v2 iframe {
+        height: auto;
+    }
+    .restau2-v2 ol h5 {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 4vh;
+        margin-bottom: 0;
+    }
+    .restau2-v2 ol p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-right: 3vh;
+        font-size: 2vh;
+    }
+    /* restau 3*/
+    .img-restau3-v2 {
+        float: left;
+        margin-left: 0;
+        margin-top: 0;
+            width: 580px;
+            height: 400px;
+    }
+    div .restau3-v2 iframe {
+        height: auto;
+        padding-top: 10vh;
+    }
+    .restau3-v2 {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    .restau3-v2 ol h5 {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 4vh;
+        margin-bottom: 0;
+    }
+    .restau3-v2 ol p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-right: 3vh;
+        font-size: 2vh;
+    }
+    /*Parallax scrool 2 v2*/
+    .parallax-scroll2-v2 {
+        background-image: url(../image/raw.jpg);
+        min-height: 400px;
+        background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    /*Début lieux incontournable v2*/
+    .titre-lieux-v2 {
+        margin-top: 15vh;
+        text-align: center;
+        font-size: 8vh;
+        font-family: "Amatic SC";
+    }
+      .container-lieux-v2{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-auto-rows: 100px 300px;
+        grid-gap: 10px;
+        grid-auto-flow:dense;
+      }
+      
+      .gallery-item-v2{
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+      
+      .gallery-item-v2 .image-lieux-v2{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      
+      .gallery-item-v2 .image-lieux-v2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+        cursor: pointer;
+        transition:.5s ease-in-out;
+      }
+      
+      .gallery-item-v2:hover .image-lieux-v2 img{
+        transform: scale(1.5);
+      }
+      
+      .gallery-item-v2 .text{
+        opacity: 0;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+        
+        pointer-events: none;
+        z-index: 4;
+        transition: .3s ease-in-out;
+        -webkit-backdrop-filter: blur(4px) saturate(1.8);
+        backdrop-filter: blur(4px) saturate(1.8);
+      }
+      
+      .gallery-item-v2:hover .text{
+        opacity: 1;
+        animation: move-down .3s linear;
+        padding: 1em;
+        width: 100%;
+      }
+      
+      .w-1{
+        grid-column: span 1;
+      }
+      
+      .w-2{
+        grid-column: span 2;
+      }
+      
+      .w-3{
+        grid-column: span 3;
+      }
+      
+      .w-4{
+        grid-column: span 4;
+      }
+      
+      .w-5{
+        grid-column: span 5;
+      }
+      
+      .w-6{
+        grid-column: span 6;
+      }
+      
+      .h-1{
+        grid-row: span 1;
+      }
+      
+      .h-2{
+        grid-row: span 2;
+      }
+      
+      .h-3{
+        grid-row: span 3;
+      }
+      
+      .h-4{
+        grid-row: span 4;
+      }
+      
+      .h-5{
+        grid-row: span 5;
+      }
+      
+      .h-6{
+        grid-row: span 6;
+      }
+}
+  
+  
+  @keyframes move-down{
+  
+    0%{
+      top: 10%;
+    }
+    50%{
+      top: 35%;
+    }
+    100%{
+      top: 50%;
+    }
+  }
