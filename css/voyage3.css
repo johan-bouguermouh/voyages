@@ -166,4 +166,12 @@ h2{
         display: flex;
         justify-content: center;
     }
+
+   
+}
+
+@media (min-width:1154px){
+    #v3_art3_main {
+        color: black;
+    }
 }
