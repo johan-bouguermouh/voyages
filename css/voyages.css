@@ -181,7 +181,7 @@ header video{
     flex-direction: column;
     flex-wrap: wrap;
     position: relative;
-    max-width: 55rem;
+    max-width: 65rem;
 }
 #index_main article section{
     display: flex;
